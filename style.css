@@ -3,6 +3,10 @@ body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
+.cabecalho{
+
+}
+
 .photo{
     border: 1px solid #505050;
     border-radius: 50%;
@@ -16,6 +20,17 @@ body {
     margin-top: 20px;
     padding: 20px;
     
+}
+
+.btn{
+    display: inline;
+    justify-content: space-between;
+    padding-right: 250px;
+
+}
+
+.btn a{
+    font-size: 20px;
 }
 
 
@@ -60,20 +75,15 @@ a {
     border-radius: 5px;
 }
 
-.post .contacts {
+.post {
     font-size: 16px;
     font-style: italic;
-    margin: 0;
+    margin: 10px;
     margin-bottom: 15px;
 
 
 }
 
-
-.contacts{
-    margin: 0;
-    margin-bottom: 15px;
-}
 
 
 .contacts-list{
@@ -83,11 +93,6 @@ a {
 
 }
 
-
-.btn{
-
-
-}
 
 
 footer{
@@ -115,7 +120,7 @@ a {
     margin-top: 20px;
     line-height: 50px;
     padding: 5px 10px;
-    color: #122a57;
+    color: #fff;
     font-size: 12px;
     text-decoration: none;
     font-weight: 700;
