@@ -1,53 +1,72 @@
 body {
-    background: #faf5f5;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    background: #hsl(30, 38%, 92%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
-.cabecalho{
+@font-face {
+    font-family: Abel;
+    src: url(./src/Fonts/Abel/Abel-Regular.ttf);
+ }
+
+.cabecalho {
+
+    background:  #f3f3f5;
+    box-shadow: 0 0 2px 2px rgb(29 17 51 / 4%), 0 0 3px 4px rgb(9 32 77 / 12%), 0 0 2px -3px rgb(29 17 51 / 12%);
+    color: #000;
+    padding-bottom: 30px;
+
 
 }
 
-.photo{
-    border: 1px solid #505050;
+h1{
+    font-family: Abel;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+.photo {
+    border: 1px solid #000;
     border-radius: 50%;
     margin-left: 20px;
     margin-top: 50px;
 }
 
-#title{
+#title {
     font-size: 40px;
     text-transform: uppercase;
     margin-top: 20px;
     padding: 20px;
-    
+
 }
 
-.btn{
+.btn {
     display: inline;
     justify-content: space-between;
     padding-right: 250px;
+    
 
 }
 
-.btn a{
+.btn a {
     font-size: 20px;
 }
 
 
 a {
-    text-decoration:underline;
-    color: #505050;
+    text-decoration: underline;
 }
 
 
-.subtitle{
+.subtitle {
     margin-left: 20px;
 }
 
 
 
-#title, .subtitle, .contacts{
-    color: #505050;
+#title,
+.contacts {
+    color: #000;
+    
 }
 
 
@@ -55,20 +74,19 @@ a {
 .post {
     background-color: #fff;
     padding: 15px;
-    border: 5px solid #0e4cc0;
     margin: 10px;
-    margin-bottom: 15px; 
-    width: 75%;
-    height: 75%;
-    width: 75%;
-    height: 75%;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 100%;
+    width: 100%;
+    height: 100%;
     border-radius: 5px;
 
 
 }
 
 
-.post img{
+.post img {
 
     width: 70%;
     height: 70%;
@@ -76,7 +94,7 @@ a {
 }
 
 .post {
-    font-size: 16px;
+    font-size: 18px;
     font-style: italic;
     margin: 10px;
     margin-bottom: 15px;
@@ -86,7 +104,7 @@ a {
 
 
 
-.contacts-list{
+.contacts-list {
     list-style-type: none;
     padding-left: 15px;
     margin-bottom: auto;
@@ -95,8 +113,9 @@ a {
 
 
 
-footer{
-    background-color:#0e4cc0;
+footer {
+    background-color #f3f3f5;
+    box-shadow: 0 0 2px 2px rgb(29 17 51 / 4%), 0 0 3px 4px rgb(9 32 77 / 12%), 0 0 2px -3px rgb(29 17 51 / 12%);
     height: 70px;
     display: flex;
     align-items: center;
@@ -105,32 +124,35 @@ footer{
     margin: 5px;
 }
 
-footer p  {
+footer p {
     justify-content: space-between;
-    color: #fcfcfc;
+    color: #000;
 
 }
 
 a {
     width: 220px;
-    background-color: #0e4cc0;
+    background-color: #016ABC;
     border-radius: 30px;
+    border: 1px solid #eee;
     height: 50px;
     text-align: center;
     margin-top: 20px;
     line-height: 50px;
     padding: 5px 10px;
     color: #fff;
-    font-size: 12px;
+    font-size: 18px;
     text-decoration: none;
     font-weight: 700;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow: none;
 }
 
+a:hover {
 
-
-
-
-
-
-
- 
+    background:#B9DFFF;
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow:none;} 
